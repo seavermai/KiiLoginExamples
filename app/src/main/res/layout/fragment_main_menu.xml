@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/button_login"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="@drawable/roundrect"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/login_as_user"
+        android:textSize="24sp" />
+    <Button
+        android:id="@+id/button_register"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_below="@+id/button_login"
+        android:background="@drawable/roundrect"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/register_as_user"
+        android:textSize="24sp" />
+    <Button
+        android:id="@+id/button_login_pseudo_user"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_below="@+id/button_register"
+        android:background="@drawable/roundrect"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/login_as_pseudo_user"
+        android:textSize="24sp" />
+
+</RelativeLayout>

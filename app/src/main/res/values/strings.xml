@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Kii Data Retrieval</string>
+
+    <!-- Login Fragment -->
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="login_as_user">Login as User</string>
+    <string name="register_as_user">Register as User</string>
+    <string name="login_as_pseudo_user">Login as Pseudo User</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="registration_succeeded">Registration succeeded</string>
+
+    <!-- Registration Dialog Fragment -->
+    <string name="register_kii_cloud">Register KiiCloud</string>
+
+    <!-- Login Dialog Fragment -->
+    <string name="login_kii_cloud">Login KiiCloud</string>
+
+    <string name="error_invalid_username">Error : invalid format : username</string>
+    <string name="error_invalid_password">Error : invalid format : password</string>
+
+    <!-- Login Info Fragment -->
+    <string name="login_info">Login Info</string>
+
+</resources>
